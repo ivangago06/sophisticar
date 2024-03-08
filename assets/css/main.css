@@ -20,7 +20,7 @@
 /* Colors */
 :root {
   --color-default: #fafafa;
-  --color-primary: #27a776;
+  --color-primary: #a77427;
   --color-secondary: #161718;
 }
 
@@ -81,7 +81,7 @@ h6 {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #5bd9a9;
+  background: #a77427;
   margin: 4px 10px;
 }
 
@@ -135,7 +135,7 @@ h6 {
 }
 
 .page-header .cta-btn:hover {
-  background: #2cbc85;
+  background: #eee0a3;
 }
 
 /*--------------------------------------------------------------
@@ -162,7 +162,7 @@ h6 {
 }
 
 .scroll-top:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   color: #fff;
 }
 
@@ -916,7 +916,7 @@ h6 {
 
 .gallery-single .portfolio-description .testimonial-item .quote-icon-left,
 .gallery-single .portfolio-description .testimonial-item .quote-icon-right {
-  color: #5bd9a9;
+  color: #a77427;
   font-size: 26px;
   line-height: 0;
 }
@@ -1114,7 +1114,7 @@ h6 {
   background: var(--color-secondary);
   text-align: center;
   padding: 15px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 255, 255);
 }
 
 .contact .php-email-form .loading:before {
@@ -1135,8 +1135,8 @@ h6 {
   box-shadow: none;
   font-size: 14px;
   background-color: var(--color-secondary);
-  border: 1px solid #2e3133;
-  color: #fff;
+  border: 1px solid #332e2e;
+  color: #ffffff;
 }
 
 .contact .php-email-form input {
@@ -1157,7 +1157,23 @@ h6 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(39, 167, 118, 0.8);
+  background: rgba(228, 195, 158, 0.8);
+}
+
+#name::placeholder {
+  color:white;
+}
+
+#email::placeholder {
+  color:white;
+}
+
+#subject::placeholder {
+  color:white;
+}
+
+#message::placeholder {
+  color:white;
 }
 
 @keyframes animate-loading {
@@ -1229,7 +1245,7 @@ h6 {
 }
 
 .hero .btn-get-started:hover {
-  background: #2cbc85;
+  background: #ffffff;
 }
 
 @media (max-width: 768px) {
