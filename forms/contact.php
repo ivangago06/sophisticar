@@ -12,6 +12,7 @@ $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
 if (mail($to, $subject, $message, $headers)) {
     echo "El correo ha sido enviado correctamente.";
+    header("Location: contactanos/?res=1");
 } else {
     echo "Error al enviar el correo.";
 }
