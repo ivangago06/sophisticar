@@ -83,8 +83,18 @@ include('headers.php');
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
+<?php
+                if($_GET['res']==2) {
+?>
                 <div class="error-message"></div>
+<?php
+                }
+                if($_GET['res']==1) {
+?>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
+<?php
+                }
+?>
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>

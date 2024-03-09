@@ -19,7 +19,7 @@
             </ul>
           </li>
           <li><a href="services">Services</a></li>
-          <li><a href="contactanos">Contact</a></li>
+          <li><a href="contacto">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
 
